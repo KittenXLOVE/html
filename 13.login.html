@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>13.login</title>
+    </head>
+    <body>
+		<!--
+		<form>是表單元素。
+		method是資料送出的方法，可用post或get，前者是以明碼傳送(藉由網址列直接顯示)，後者則是暗碼傳送較為安全。
+		action是要將資料送往指定路徑(php網頁)。
+		-->
+		<form method="post" action="login.php">
+			<!--
+			<input>用於表單中互動用，更改其type會有不同的功能。
+			tpye為text時，為一般文字輸入。
+			其name為php中要抓取資料時，所要指定的名稱。
+			-->
+			<p>帳號：<input type="text" name="id"></p>
+			<!--tpye為password時，作為密碼輸入。-->
+			<p>密碼：<input type="password" name="pwd"></p>
+			<!--
+			tpye為submit時，將顯示提交按鈕，按下就會送出表單中的資料。
+			value可更改按鈕所顯示的名稱。
+			-->
+			<input type="submit" value="登入">
+			<!--tpye為reset時，將顯示重置按鈕，會將此表單恢復原狀。-->
+			<input type="reset" value="重置">
+        </form>
+    </body>
+</html>

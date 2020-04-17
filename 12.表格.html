@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>12.表格</title>
+    </head>
+    <body>
+		<!--<table>表示表格，border可設定其邊框樣式。-->
+        <table border="1">
+            <!--<tr>是Table Row的縮寫，代表表格的一列。-->
+			<tr>
+				<!--<td>是Table Data的縮寫，表格的資料，每個表示此列的一筆資料。-->
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+            <tr>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+        </table><br>
+        <table border="1">
+            <tr>
+				<td>1</td>
+				<!--colspan參數為Column Span的縮寫，跨行合併，裡面的數字就是要合併的格數。-->
+				<td colspan="2">2,3</td>
+			</tr>
+            <tr>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+        </table><br>
+        <table border="1">
+            <tr>
+				<!--rowspan參數是跨列合併，裡面的數字就是要合併的格數。-->
+				<td rowspan="2">1<br>4</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+            <tr>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+        </table><br>
+        <table border="1">
+            <tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+            <tr>
+				<td>4</td>
+				<!--也可同時使用colspan以及rowspan。-->
+				<td colspan="2" rowspan="2">5,6<br>8,9</td>
+			</tr>
+            <tr>
+				<td>7</td>
+			</tr>
+       </table><br>
+    </body>
+</html>
