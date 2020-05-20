@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <title>18.1滿版背景應用作業</title>
+        <style>
+            body{
+				//外距;
+				margin: 0px;
+				//內距;
+				padding: 0px;
+            }
+			div{
+				//背景圖片的重複方式;
+				background-repeat: no-repeat;
+				//背景圖片的優先顯示位置;
+				background-position: center;
+				//背景圖片的大小;
+				background-size: cover;
+				//背景圖片的固定模式
+				background-attachment: scroll;
+				//高度;
+				height: 1050px;
+				//寬度;
+				width: 100%;
+			}
+			#d1{
+				//設定背景圖片;
+                background-image: url(bigPhoto.jpg);
+            }
+			#d2{
+				background-image: url(bigPhoto2.jpg);
+            }
+			#d3{
+                background-image: url(bigPhoto3.jpg);
+            }
+        </style>
+    </head>
+    <body>
+		<div id="d1"></div>
+		<div id="d2"></div>
+		<div id="d3"></div>
+    </body>
+</html>
