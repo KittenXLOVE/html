@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+	<head>
+		<meta charset="utf-8" />
+		<title>26.文字大小寫</title>
+		<style>
+			#upper {
+				/*設定字體顏色*/
+				color: #bc70fa;
+				/*設定背景顏色*/
+				background-color: #8ad3ff;
+				/*陰影框: x軸位移 y軸位移 陰影大小 陰影顏色*/
+				box-shadow:2px 2px 3px #578fff;
+				/*文字轉換: uppercase大寫*/
+				text-transform: uppercase;
+			}
+			/*文字轉換: lowercase小寫*/
+			#lower {text-transform: lowercase;}
+			/*文字轉換: capitalize單字開頭大寫*/
+			#capitalize {text-transform: capitalize;}
+		</style>
+	</head>
+	<body>
+		<h1 id="upper">This is some text in a paragraph.</h1>
+		<h1 id="lower">This is some text in a paragraph.</h1>
+		<h1 id="capitalize">This is some text in a paragraph.</h1>
+	</body>
+</html>

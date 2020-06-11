@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+	<head>
+		<meta charset="utf-8" />
+		<title>17.改變內文背景顏色</title>
+		<style>
+			/*
+			改變背景顏色(使用RGB)，
+			(開頭#代表id，開頭.代表class)。
+			*/
+			.name {background-color: rgb(255,0,0);}
+			#people {background-color: rgb(0,255,0);}
+			.year {background-color: rgb(0,125,255);}
+		</style>
+	</head>
+	<body>
+		<!--span本身沒有作用，通常會搭配CSS來做樣式-->
+		<span class="name">人事總處</span>表示，<span class="name">行政院</span><span id="people">蘇院長</span>考量國人返鄉團圓需求，
+		並適度舒緩年節交通，自<span class="year">109年</span>起，農曆春節調整為自小年夜開始放假，
+		<span class="year">110年</span>農曆春節連續假期為2月10日起至2月16日，共放假7日，
+		考量各級學校寒假起迄日為1月21日至2月10日，經參據<span class="name">教育部</span>意見，
+		於2月20日（星期六）補行上班；另中秋節（9月21日）適逢星期二，
+		9月20日（星期一）調整放假，並於9月11日（星期六）補行上班。
+		所以，<span class="year">110年</span>共有2個調整上班日。
+	</body>
+</html>

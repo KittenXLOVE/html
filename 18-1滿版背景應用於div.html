@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+	<head>
+		<meta charset="utf-8" />
+		<title>18-1滿版背景應用於div</title>
+		<style>
+			body {
+				/*外距*/
+				margin: 0px;
+				/*內距*/
+				padding: 0px;
+			}
+			#d1 {
+				/*設定背景圖片*/
+				background-image: url(bigPhoto.jpg);
+				/*背景的重複方式*/
+				background-repeat: no-repeat;
+				/*背景的優先顯示位置*/
+				background-position: center;
+				/*背景的大小*/
+				background-size: cover;
+				
+				/*高度*/
+				height: 1200px;
+				/*寬度*/
+				width: 100%;
+			}
+			#d2 {
+				background-image: url(bigPhoto2.jpg);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				
+				height: 1080px;
+				width: 100%;
+			}
+			#d3 {
+				background-image: url(bigPhoto3.jpg);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				
+				height: 1365px;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="d1"></div>
+		<div id="d2"></div>
+		<div id="d3"></div>
+	</body>
+</html>
